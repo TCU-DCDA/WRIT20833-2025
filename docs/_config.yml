@@ -1,0 +1,17 @@
+# Jekyll configuration for GitHub Pages
+title: "WRIT 20833 — 2025"
+description: "Course materials and resources for WRIT 20833 (2025)"
+
+# GitHub Pages settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown processing
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+baseurl: "/WRIT20833-2025"
+url: "https://tcu-dcda.github.io"
