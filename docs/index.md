@@ -23,16 +23,16 @@ Welcome. This site hosts weekly slides, notebooks, and the syllabus.
 ## Lectures
 
 ### Main Lectures
-- [Lecture 1: Digital Boundaries](/WRIT20833-2025/lectures/main/lecture1.html)
+- [Lecture 1: When Coding Meets Culture](/WRIT20833-2025/lectures/main/lecture1.html)
 
-### Mini-Lecture Series
+<!-- ### Mini-Lecture Series
 - [Mini-Lecture Series Overview](/WRIT20833-2025/lectures/mini-lectures/index.html)
 - [Mini-Lecture 1: Digital Boundaries](/WRIT20833-2025/lectures/mini-lectures/lecture-1/index.html)
 - [Mini-Lecture 2: Classification Logic](/WRIT20833-2025/lectures/mini-lectures/lecture-2/index.html)
 - [Mini-Lecture 3: AI Agency](/WRIT20833-2025/lectures/mini-lectures/lecture-3/index.html)
 - [Mini-Lecture 4: Collective Memory](/WRIT20833-2025/lectures/mini-lectures/lecture-4/index.html)
 - [Suggested Readings](/WRIT20833-2025/lectures/mini-lectures/suggested-readings.md)
-- [Lecture Outlines](/WRIT20833-2025/lectures/mini-lectures/lecture_outlines_clarified.txt)
+- [Lecture Outlines](/WRIT20833-2025/lectures/mini-lectures/lecture_outlines_clarified.txt) -->
 
 ## Course Resources
 
