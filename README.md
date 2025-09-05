@@ -24,31 +24,32 @@ This repository contains course materials for WRIT 20833, including interactive 
 ```
 WRIT20833-2025/
 ├── docs/
-│   └── index.md                    # Main course materials index
-├── notebooks/
-│   ├── week-01/
-│   │   └── intro.ipynb            # Variables & Data Types
-│   ├── tutorials/
-│   │   ├── Tutorial_01_Digital_Boundaries_MiniLecture1.ipynb
-│   │   ├── Tutorial_02_Classification_Logic_MiniLecture2.ipynb
-│   │   ├── Tutorial_03_AI_Agency_MiniLecture3.ipynb
-│   │   └── Tutorial_04_Collective_Memory_MiniLecture4.ipynb
-│   └── homework/
-│       └── WRIT20833_HW1_Fall2025.ipynb
-└── lectures/
-    ├── main/
-    │   ├── lecture1.html           # Main lecture presentation
-    │   ├── lecture1-style.css      # Styling
-    │   └── images/                 # Lecture-specific images (22 files)
-    └── mini-lectures/
-        ├── index.html              # Mini-lecture series overview
-        ├── lecture_outlines_clarified.txt
-        ├── suggested-readings.md
-        ├── images/                 # Shared images (34+ files)
-        └── lecture-1/ through lecture-4/
-            ├── index.html          # Individual presentations
-            ├── style.css           # Lecture-specific styling
-            └── newImages/          # Additional assets (lecture 4)
+│   ├── index.md                    # Main course materials index
+│   └── lectures/                   # Web-accessible lectures for GitHub Pages
+│       ├── main/
+│       │   ├── lecture1.html       # Main lecture presentation
+│       │   ├── lecture1-style.css  # Styling
+│       │   └── images/             # Lecture-specific images (22 files)
+│       └── mini-lectures/
+│           ├── index.html          # Mini-lecture series overview
+│           ├── lecture_outlines_clarified.txt
+│           ├── suggested-readings.md
+│           ├── images/             # Shared images (34+ files)
+│           └── lecture-1/ through lecture-4/
+│               ├── index.html      # Individual presentations
+│               ├── style.css       # Lecture-specific styling
+│               └── newImages/      # Additional assets (lecture 4)
+└── notebooks/
+    ├── week-01/
+    │   └── intro.ipynb            # Variables & Data Types
+    ├── tutorials/
+    │   ├── Tutorial_01_Digital_Boundaries_MiniLecture1.ipynb
+    │   ├── Tutorial_02_Classification_Logic_MiniLecture2.ipynb
+    │   ├── Tutorial_03_AI_Agency_MiniLecture3.ipynb
+    │   └── Tutorial_04_Collective_Memory_MiniLecture4.ipynb
+    └── homework/
+        └── WRIT20833_HW1_Fall2025.ipynb
+```
 ```
 
 ## 🚀 Getting Started
