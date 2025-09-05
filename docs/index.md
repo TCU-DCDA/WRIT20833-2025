@@ -9,11 +9,11 @@ Welcome. This site hosts weekly notebooks.
 ## Notebooks
 
 ### CodeAlongs
-- [Variables & Data Types](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/codeAlongs/WRIT20833_Variables_DataTypes_F25.ipynb)
-- [String Methods, Conditionals & Loops](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/codeAlongs/WRIT20833_StrMethods_Conditionals_Loops_F25.ipynb)
+- <a href="https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/codeAlongs/WRIT20833_Variables_DataTypes_F25.ipynb" target="_blank">Variables & Data Types</a>
+- <a href="https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/codeAlongs/WRIT20833_StrMethods_Conditionals_Loops_F25.ipynb" target="_blank">String Methods, Conditionals & Loops</a>
 
 ### Exercises
-- [Conditionals Exercise (9-5-25)](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/exercises/WRIT20833_Conditionals_9-5-25.ipynb)
+- <a href="https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/exercises/WRIT20833_Conditionals_9-5-25.ipynb" target="_blank">Conditionals Exercise (9-5-25)</a>
 
 <!-- ### Tutorial Notebooks
 - [Tutorial 01: Digital Boundaries](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/tutorials/Tutorial_01_Digital_Boundaries_MiniLecture1.ipynb)
@@ -27,7 +27,7 @@ Welcome. This site hosts weekly notebooks.
 ## Lectures
 
 ### Main Lectures
-- [Lecture 1: When Coding Meets Culture](/WRIT20833-2025/lectures/main/lecture1.html)
+- <a href="/WRIT20833-2025/lectures/main/lecture1.html" target="_blank">Lecture 1: When Coding Meets Culture</a>
 
 <!-- ### Mini-Lecture Series
 - [Mini-Lecture Series Overview](/WRIT20833-2025/lectures/mini-lectures/index.html)
@@ -41,24 +41,24 @@ Welcome. This site hosts weekly notebooks.
 ## Course Resources
 
 ### Python
-- [Python.org Official Tutorial](https://docs.python.org/3/tutorial/) - Comprehensive beginner-friendly guide
-- [Codecademy Python Course](https://www.codecademy.com/learn/learn-python-3) - Interactive coding exercises
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Practical programming for beginners
+- <a href="https://docs.python.org/3/tutorial/" target="_blank">Python.org Official Tutorial</a> - Comprehensive beginner-friendly guide
+- <a href="https://www.codecademy.com/learn/learn-python-3" target="_blank">Codecademy Python Course</a> - Interactive coding exercises
+- <a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff with Python</a> - Practical programming for beginners
 
 ### HTML
-- [MDN HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) - Mozilla's authoritative guide
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/) - Step-by-step tutorials with examples
-- [HTML5 for Web Designers](https://html5forwebdesigners.com/) - Modern HTML practices and standards
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">MDN HTML Basics</a> - Mozilla's authoritative guide
+- <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a> - Step-by-step tutorials with examples
+- <a href="https://html5forwebdesigners.com/" target="_blank">HTML5 for Web Designers</a> - Modern HTML practices and standards
 
 ### CSS
-- [MDN CSS First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) - Mozilla's comprehensive CSS guide
-- [CSS-Tricks](https://css-tricks.com/guides/beginner/) - Practical CSS techniques and best practices
-- [Flexbox Froggy](https://flexboxfroggy.com/) - Interactive game for learning CSS Flexbox
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps" target="_blank">MDN CSS First Steps</a> - Mozilla's comprehensive CSS guide
+- <a href="https://css-tricks.com/guides/beginner/" target="_blank">CSS-Tricks</a> - Practical CSS techniques and best practices
+- <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a> - Interactive game for learning CSS Flexbox
 
 ### Additional Readings
-- [Ted Chiang: "Will A.I. Become the New McKinsey?"](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey) - Clear essay on AI and decision-making
-- [danah boyd: "Privacy and Publicity in the Context of Big Data"](https://www.danah.org/papers/talks/2010/WWW2010.html) - Short essay on digital boundaries and privacy
-- [Cathy O'Neil: "Weapons of Math Destruction"](https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/) - Accessible exploration of algorithmic bias in everyday life
+- <a href="https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey" target="_blank">Ted Chiang: "Will A.I. Become the New McKinsey?"</a> - Clear essay on AI and decision-making
+- <a href="https://www.danah.org/papers/talks/2010/WWW2010.html" target="_blank">danah boyd: "Privacy and Publicity in the Context of Big Data"</a> - Short essay on digital boundaries and privacy
+- <a href="https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/" target="_blank">Cathy O'Neil: "Weapons of Math Destruction"</a> - Accessible exploration of algorithmic bias in everyday life
 
 ---
 
