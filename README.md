@@ -4,10 +4,11 @@ This repository contains course materials for WRIT 20833, including interactive 
 
 ## 📚 Repository Contents
 
-### 📓 Notebooks (6 total)
-- **Week-based content**: Foundational materials organized by semester week
-- **Tutorial assignments**: Interactive coding exercises paired with mini-lectures  
-- **Homework assignments**: Structured assignments for skill development
+### 📓 Notebooks (5 total)
+- **CodeAlongs**: Interactive coding sessions and demonstrations
+- **Exercises**: In-class practice activities and skill-building exercises
+- **Tutorial assignments**: Interactive coding exercises paired with mini-lectures (archived)
+- **Homework assignments**: Structured assignments for skill development (archived)
 
 ### 🎓 Lectures (6 HTML presentations)
 - **Main lectures**: Full-length course presentations
@@ -40,14 +41,17 @@ WRIT20833-2025/
 │               ├── style.css       # Lecture-specific styling
 │               └── newImages/      # Additional assets (lecture 4)
 └── notebooks/
-    ├── week-01/
-    │   └── intro.ipynb            # Variables & Data Types
-    ├── tutorials/
+    ├── codeAlongs/
+    │   ├── WRIT20833_Variables_DataTypes_F25.ipynb
+    │   └── WRIT20833_StrMethods_Conditionals_Loops_F25.ipynb
+    ├── exercises/
+    │   └── WRIT20833_Conditionals_9-5-25.ipynb
+    ├── tutorials/                  # Archived content
     │   ├── Tutorial_01_Digital_Boundaries_MiniLecture1.ipynb
     │   ├── Tutorial_02_Classification_Logic_MiniLecture2.ipynb
     │   ├── Tutorial_03_AI_Agency_MiniLecture3.ipynb
     │   └── Tutorial_04_Collective_Memory_MiniLecture4.ipynb
-    └── homework/
+    └── homework/                   # Archived content
         └── WRIT20833_HW1_Fall2025.ipynb
 ```
 ```
