@@ -4,12 +4,16 @@ title: WRIT 20833 — 2025
 
 # WRIT 20833 — Course Materials (2025)
 
-Welcome. This site hosts weekly slides, notebooks, and the syllabus.
+Welcome. This site hosts weekly notebooks.
 
 ## Notebooks
 
-### Week 01
-- [Intro Notebook (Variables & Data Types)](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/week-01/intro.ipynb)
+### CodeAlongs
+- [Variables & Data Types](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/codeAlongs/WRIT20833_Variables_DataTypes_F25.ipynb)
+- [String Methods, Conditionals & Loops](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/codeAlongs/WRIT20833_StrMethods_Conditionals_Loops_F25.ipynb)
+
+### Exercises
+- [Conditionals Exercise (9-5-25)](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/exercises/WRIT20833_Conditionals_9-5-25.ipynb)
 
 <!-- ### Tutorial Notebooks
 - [Tutorial 01: Digital Boundaries](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/tutorials/Tutorial_01_Digital_Boundaries_MiniLecture1.ipynb)
@@ -17,8 +21,8 @@ Welcome. This site hosts weekly slides, notebooks, and the syllabus.
 - [Tutorial 03: AI Agency](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/tutorials/Tutorial_03_AI_Agency_MiniLecture3.ipynb)
 - [Tutorial 04: Collective Memory](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/tutorials/Tutorial_04_Collective_Memory_MiniLecture4.ipynb) -->
 
-### Homework
-- [Homework 1 - Fall 2025](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/homework/WRIT20833_HW1_Fall2025.ipynb)
+<!-- ### Homework
+- [Homework 1 - Fall 2025](https://colab.research.google.com/github/TCU-DCDA/WRIT20833-2025/blob/main/notebooks/homework/WRIT20833_HW1_Fall2025.ipynb) -->
 
 ## Lectures
 
