@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Data Wisdom Chapter</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Data Wisdom Chapter</h1>
+</header>
+<h1
+id="chapter-7-from-data-to-wisdom---understanding-information-processing-in-the-digital-age">Chapter
+7: From Data to Wisdom - Understanding Information Processing in the
+Digital Age</h1>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<p>By the end of this chapter, you will be able to: - Distinguish
+between idealized and actual human information processing - Identify
+cognitive biases that affect how we interpret data - Apply computational
+thinking to analyze information flows - Create simple visualizations
+that reveal hidden patterns in data consumption - Develop strategies for
+more critical engagement with digital information</p>
+<h2 id="introduction-two-paths-to-knowledge">Introduction: Two Paths to
+“Knowledge”</h2>
+<p>In 1955, systems theorist Russell Ackoff proposed a famous hierarchy:
+Data → Information → Knowledge → Wisdom. This clean progression suggests
+that wisdom emerges naturally from accumulating and processing data
+systematically. But what happens when we apply this model to how people
+actually consume information in our digital age?</p>
+<p>Consider how you formed your last strong opinion about a current
+event. Did you systematically gather data, analyze it objectively, and
+gradually build toward insight? Or did you encounter information that
+confirmed what you already suspected, shared it with like-minded people,
+and gradually became more certain of your position?</p>
+<p>This chapter explores two parallel processes: the idealized path from
+data to wisdom that we aspire to follow, and the messier, more human
+path we actually take when “doing our own research” in the echo chambers
+of social media and our preferred information sources.</p>
+<h2 id="the-idealized-knowledge-pipeline">The Idealized Knowledge
+Pipeline</h2>
+<p>The traditional model of knowledge formation follows a logical
+progression:</p>
+<h3 id="noumena-phenomena">1. Noumena → Phenomena</h3>
+<p>We encounter reality through observable phenomena—events and patterns
+we can perceive and measure.</p>
+<h3 id="phenomena-raw-data">2. Phenomena → Raw Data</h3>
+<p>We collect unstructured observations: numbers, quotes, images,
+measurements.</p>
+<h3 id="raw-data-structured-data">3. Raw Data → Structured Data</h3>
+<p>We organize information into databases, spreadsheets, and systematic
+formats that allow for analysis.</p>
+<h3 id="structured-data-analyzed-data">4. Structured Data → Analyzed
+Data</h3>
+<p>We apply statistical methods, identify trends, and test hypotheses
+against the evidence.</p>
+<h3 id="analyzed-data-insight">5. Analyzed Data → Insight</h3>
+<p>Patterns emerge that help us understand underlying principles or
+relationships.</p>
+<h3 id="insight-knowledge">6. Insight → Knowledge</h3>
+<p>We integrate insights into broader frameworks that can predict or
+explain phenomena.</p>
+<h3 id="knowledge-wisdom">7. Knowledge → Wisdom</h3>
+<p>We develop judgment about when and how to apply knowledge
+appropriately in complex situations.</p>
+<p>This pipeline works well in controlled research environments, but it
+assumes we approach information neutrally and systematically.</p>
+<h2
+id="the-echo-chamber-pipeline-how-we-actually-process-information">The
+Echo Chamber Pipeline: How We Actually Process Information</h2>
+<p>In reality, our information consumption follows a different, more
+psychologically realistic path:</p>
+<h3 id="noumena-social-phenomena">1. Noumena → Social Phenomena</h3>
+<p>Instead of encountering raw reality, we encounter <strong>curated
+social phenomena</strong>—the trending topics, viral posts, and
+algorithmic feeds that shape what we even notice as “real.” Our
+attention is pre-filtered by platform algorithms and social
+networks.</p>
+<h3 id="social-phenomena-impressions">2. Social Phenomena →
+Impressions</h3>
+<p>We don’t observe neutrally; we form immediate
+<strong>impressions</strong> based on headlines, thumbnails, and
+emotional framing. These impressions are heavily influenced by what our
+networks are already discussing and our existing beliefs.</p>
+<h3 id="impressions-cherry-picked-evidence">3. Impressions →
+Cherry-picked Evidence</h3>
+<p>Rather than collecting comprehensive raw data, we unconsciously
+<strong>cherry-pick evidence</strong> that confirms our initial
+impressions. We scroll past contradictory information or interpret
+ambiguous data through our existing lens.</p>
+<h3 id="cherry-picked-evidence-narrative-scaffolding">4. Cherry-picked
+Evidence → Narrative Scaffolding</h3>
+<p>Instead of neutral structure, we organize information into compelling
+<strong>narratives</strong> that feel coherent to us and our
+communities. This creates the illusion of systematic thinking while
+actually reinforcing confirmation bias.</p>
+<h3 id="narrative-scaffolding-rationalized-positions">5. Narrative
+Scaffolding → Rationalized Positions</h3>
+<p>Our “analysis” becomes <strong>post-hoc rationalization</strong> of
+positions we’ve already emotionally adopted. We find statistics that
+support our narrative while dismissing methodological concerns about
+data that doesn’t fit.</p>
+<h3 id="rationalized-positions-conviction">6. Rationalized Positions →
+Conviction</h3>
+<p>What feels like insight is often just the satisfaction of having our
+worldview validated. The echo chamber amplifies this feeling, making our
+<strong>convictions</strong> feel more solid than they actually are.</p>
+<h3 id="conviction-tribal-certainty">7. Conviction → Tribal
+Certainty</h3>
+<p>Our “knowledge” becomes <strong>group-validated beliefs</strong> that
+feel unshakeable because they’re constantly reinforced by our
+information ecosystem.</p>
+<h3 id="tribal-certainty-ideological-rigidity">8. Tribal Certainty →
+Ideological Rigidity</h3>
+<p>Instead of wisdom’s flexibility and humility, we often end up with
+<strong>ideological rigidity</strong>—the inability to update our views
+even when presented with compelling counter-evidence.</p>
+<h2 id="key-differences-forward-vs.-backward-processing">Key
+Differences: Forward vs. Backward Processing</h2>
+<p>The crucial distinction between these two pipelines is
+directionality:</p>
+<ul>
+<li><strong>Idealized process</strong>: Works forward from evidence to
+conclusion</li>
+<li><strong>Echo chamber process</strong>: Works backward from preferred
+conclusion to supporting evidence</li>
+</ul>
+<p>Both processes <em>feel</em> like following evidence wherever it
+leads, but they operate through fundamentally different mechanisms.</p>
+<h2 id="cognitive-biases-in-digital-information-processing">Cognitive
+Biases in Digital Information Processing</h2>
+<p>Understanding these parallel processes requires recognizing key
+cognitive biases that digital platforms amplify:</p>
+<h3 id="confirmation-bias">Confirmation Bias</h3>
+<p>We seek information that confirms our existing beliefs while avoiding
+information that challenges them. Social media algorithms exploit this
+by showing us content similar to what we’ve already engaged with.</p>
+<h3 id="availability-heuristic">Availability Heuristic</h3>
+<p>We judge probability based on how easily we can remember examples.
+Viral content and repeated exposure make certain information feel more
+common or important than it actually is.</p>
+<h3 id="false-consensus-effect">False Consensus Effect</h3>
+<p>We overestimate how many people share our opinions. Echo chambers
+reinforce this by surrounding us with like-minded voices.</p>
+<h3 id="anchoring-bias">Anchoring Bias</h3>
+<p>Our first impression heavily influences all subsequent judgments.
+Headlines and initial framing have outsized impact on how we interpret
+later information.</p>
+<h2 id="computational-thinking-and-information-literacy">Computational
+Thinking and Information Literacy</h2>
+<p>As humanities scholars working with code, we can apply computational
+thinking to better understand and address these challenges:</p>
+<h3 id="pattern-recognition">Pattern Recognition</h3>
+<p>Learn to identify recurring patterns in how information spreads
+through networks, how arguments are structured, and how evidence is
+presented.</p>
+<h3 id="decomposition">Decomposition</h3>
+<p>Break down complex claims into smaller, testable components that can
+be verified independently.</p>
+<h3 id="abstraction">Abstraction</h3>
+<p>Focus on underlying structures and mechanisms rather than getting
+caught up in specific content or emotional appeals.</p>
+<h3 id="algorithm-design">Algorithm Design</h3>
+<p>Develop systematic approaches for evaluating sources,
+cross-referencing claims, and updating beliefs based on new
+evidence.</p>
+<h2 id="practical-applications-in-digital-humanities">Practical
+Applications in Digital Humanities</h2>
+<p>Understanding these information processing models has direct
+applications in digital humanities work:</p>
+<h3 id="data-collection">Data Collection</h3>
+<p>Recognize that all datasets reflect the biases and assumptions of
+their creators. What gets collected, how it’s categorized, and what gets
+excluded all shape the analysis.</p>
+<h3 id="text-analysis">Text Analysis</h3>
+<p>When analyzing historical documents or social media posts, consider
+not just what is said, but what assumptions and biases shape how
+information is presented and received.</p>
+<h3 id="network-analysis">Network Analysis</h3>
+<p>Map how information flows through different communities and identify
+structural features that promote or inhibit critical thinking.</p>
+<h3 id="visualization-design">Visualization Design</h3>
+<p>Create visualizations that reveal hidden biases rather than simply
+confirming existing assumptions.</p>
+<h2 id="further-reading-and-resources">Further Reading and
+Resources</h2>
+<h3 id="essential-sources">Essential Sources</h3>
+<ul>
+<li>Ackoff, R. L. (1989). “From Data to Wisdom.” <em>Journal of Applied
+Systems Analysis</em>, 16, 3-9.</li>
+<li>Pariser, E. (2011). <em>The Filter Bubble: What the Internet Is
+Hiding from You</em>. Penguin Press.</li>
+<li>Kahneman, D. (2011). <em>Thinking, Fast and Slow</em>. Farrar,
+Straus and Giroux.</li>
+</ul>
+<h3 id="digital-humanities-applications">Digital Humanities
+Applications</h3>
+<ul>
+<li>Moretti, F. (2013). <em>Distant Reading</em>. Verso Books.</li>
+<li>Ramsay, S. (2011). <em>Reading Machines: Toward an Algorithmic
+Criticism</em>. University of Illinois Press.</li>
+<li>Hockey, S. (2004). “The History of Humanities Computing: An
+Overview.” In <em>A Companion to Digital Humanities</em>.</li>
+</ul>
+<h3 id="critical-algorithm-studies">Critical Algorithm Studies</h3>
+<ul>
+<li>Noble, S. U. (2018). <em>Algorithms of Oppression</em>. NYU
+Press.</li>
+<li>O’Neil, C. (2016). <em>Weapons of Math Destruction</em>. Crown
+Books.</li>
+<li>Gillespie, T. (2014). “The Relevance of Algorithms.” In <em>Media
+Technologies: Essays on Communication, Materiality, and
+Society</em>.</li>
+</ul>
+<h3 id="information-literacy-resources">Information Literacy
+Resources</h3>
+<ul>
+<li>Association of College &amp; Research Libraries. (2015). “Framework
+for Information Literacy for Higher Education.”</li>
+<li>Wineburg, S., &amp; McGrew, S. (2017). “Lateral Reading: Reading
+Less and Learning More When Evaluating Digital Information.”
+<em>Stanford History Education Group</em>.</li>
+</ul>
+<hr />
+<h2 id="chapter-exercises">Chapter Exercises</h2>
+<h3 id="exercise-7.1-information-pathway-analysis-beginner">Exercise
+7.1: Information Pathway Analysis (Beginner)</h3>
+<p><strong>Time: 30 minutes</strong><br />
+<strong>Skills: Critical thinking, pattern recognition</strong></p>
+<p>Choose a recent strong opinion you’ve formed about a current event.
+Trace your information journey:</p>
+<ol type="1">
+<li>What was the first source that brought this topic to your
+attention?</li>
+<li>List the next 5 sources you encountered (social media posts,
+articles, conversations)</li>
+<li>Did you actively seek out opposing viewpoints? Why or why not?</li>
+<li>How did your opinion change (or not change) as you encountered more
+information?</li>
+</ol>
+<p><strong>Reflection Questions:</strong> - Which pipeline (idealized
+vs. echo chamber) better describes your process? - What role did
+algorithms or social networks play in shaping what information you
+saw?</p>
+<h3
+id="exercise-7.2-bias-detection-in-data-visualization-intermediate">Exercise
+7.2: Bias Detection in Data Visualization (Intermediate)</h3>
+<p><strong>Time: 45 minutes</strong><br />
+<strong>Skills: Data analysis, critical evaluation</strong></p>
+<p>Find three different visualizations of the same dataset from
+different sources (news outlets, research organizations, advocacy
+groups).</p>
+<p><strong>Tasks:</strong> 1. Identify what aspects of the data each
+visualization emphasizes 2. Note what information is included or
+excluded 3. Analyze how design choices (colors, scales, chart types)
+influence interpretation 4. Create a simple alternative visualization
+that presents the data differently</p>
+<p><strong>Code Component:</strong> Use a tool like Google Sheets,
+Tableau Public, or a simple Python/R script to create your alternative
+visualization.</p>
+<h3 id="exercise-7.3-echo-chamber-mapping-advanced">Exercise 7.3: Echo
+Chamber Mapping (Advanced)</h3>
+<p><strong>Time: 90 minutes</strong><br />
+<strong>Skills: Network analysis, data collection</strong></p>
+<p>Map your own information ecosystem:</p>
+<p><strong>Part A: Data Collection (30 minutes)</strong> 1. List your
+top 10 information sources (news sites, social media accounts, podcasts)
+2. For each source, identify its political lean, target audience, and
+primary topics 3. Note which sources you discovered through
+recommendations vs. active searching</p>
+<p><strong>Part B: Network Visualization (45 minutes)</strong><br />
+Using a tool like Gephi, Cytoscape, or even a simple drawing program: 1.
+Create a network diagram showing connections between your sources 2.
+Size nodes based on how frequently you consume each source 3. Color
+nodes based on political lean or topic area 4. Draw edges between
+sources that often reference each other</p>
+<p><strong>Part C: Analysis (15 minutes)</strong> - What patterns do you
+notice in your information network? - Where are the potential blind
+spots or missing perspectives? - How might you diversify your
+information diet?</p>
+<h3 id="exercise-7.4-algorithmic-audit-simulation-advanced">Exercise
+7.4: Algorithmic Audit Simulation (Advanced)</h3>
+<p><strong>Time: 60 minutes</strong><br />
+<strong>Skills: Programming logic, critical analysis</strong></p>
+<p>Create a simple algorithm that simulates how echo chambers form:</p>
+<p><strong>Pseudocode Framework:</strong></p>
+<pre><code>For each person in network:
+    - Start with initial belief score (-10 to +10)
+    - Each day, encounter 5 random pieces of information
+    - Information sources have their own bias scores
+    - People are more likely to engage with information close to their beliefs
+    - Engagement increases the likelihood of seeing similar content
+    - Update belief scores based on consumed information
+    - Track how beliefs change over time</code></pre>
+<p><strong>Implementation Options:</strong> - <strong>No coding
+experience:</strong> Create this as a spreadsheet simulation -
+<strong>Some coding experience:</strong> Implement in Python using basic
+loops and random numbers<br />
+- <strong>More advanced:</strong> Add network effects where people
+influence their connections</p>
+<p><strong>Analysis Questions:</strong> - How quickly do echo chambers
+form? - What factors make beliefs more or less stable? - How might you
+modify the algorithm to promote more diverse information
+consumption?</p>
+<h3
+id="exercise-7.5-information-literacy-intervention-design-capstone">Exercise
+7.5: Information Literacy Intervention Design (Capstone)</h3>
+<p><strong>Time: 2 weeks (project-based)</strong><br />
+<strong>Skills: Research, design thinking, presentation</strong></p>
+<p>Design an intervention to help people move closer to the idealized
+knowledge pipeline:</p>
+<p><strong>Project Components:</strong> 1. <strong>Problem
+Definition:</strong> Choose a specific context (social media platform,
+news consumption, academic research) 2. <strong>Research:</strong>
+Survey existing solutions and identify gaps 3. <strong>Design:</strong>
+Create a prototype tool, process, or educational resource 4.
+<strong>Implementation:</strong> Build a working demo (could be a
+website, app mockup, or educational module) 5.
+<strong>Evaluation:</strong> Test with real users and gather
+feedback</p>
+<p><strong>Example Projects:</strong> - Browser extension that provides
+source diversity metrics - Educational game that teaches lateral reading
+skills - Dashboard that visualizes your information consumption patterns
+- Chatbot that asks critical thinking questions about shared
+articles</p>
+<p><strong>Deliverables:</strong> - 10-minute presentation of your
+intervention - Working prototype or detailed mockup - Brief reflection
+paper on lessons learned</p>
+<hr />
+<h2 id="assessment-rubric">Assessment Rubric</h2>
+<h3 id="participation-and-engagement-25">Participation and Engagement
+(25%)</h3>
+<ul>
+<li>Active participation in discussions about information
+processing</li>
+<li>Thoughtful completion of in-class exercises</li>
+<li>Evidence of applying concepts to personal information
+consumption</li>
+</ul>
+<h3 id="technical-skills-development-35">Technical Skills Development
+(35%)</h3>
+<ul>
+<li>Appropriate use of digital tools for analysis and visualization</li>
+<li>Clear evidence of learning new technical skills</li>
+<li>Quality of code or technical implementation in exercises</li>
+</ul>
+<h3 id="critical-analysis-25">Critical Analysis (25%)</h3>
+<ul>
+<li>Ability to identify and analyze biases in information
+processing</li>
+<li>Quality of reflection on personal information consumption
+patterns</li>
+<li>Depth of engagement with course readings and concepts</li>
+</ul>
+<h3 id="communication-and-presentation-15">Communication and
+Presentation (15%)</h3>
+<ul>
+<li>Clear writing in exercise reflections</li>
+<li>Effective presentation of findings and insights</li>
+<li>Appropriate use of evidence to support arguments</li>
+</ul>
+</body>
+</html>
